@@ -34,3 +34,4 @@ jobs:
         with:
           artifacts: "${{ env.targetZip }}"
           allowUpdates: true
+          token: ${{ secrets.GITHUB_TOKEN }}
